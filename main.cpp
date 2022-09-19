@@ -1,21 +1,38 @@
 #include <iostream>
 #include <stdio.h>
+
 using namespace std;
 
 int main()
 {
 
-    int x = 19;
-    float t = 155;
-    char g = 'L';
-    string ub = "XXL";
+    float pi = 3.14;
+    float a;
+    float b;
+    float c;
 
-    cout << "==========================================" << endl;
-    cout << "Nama Saya         : Yudha Pandu Setiawan" << endl;
-    cout << "Umur Saya         : " << x;
-    cout << "\nTinggi Saya       : " << t;
-    cout << "\nukuran baju saya  : " << g;
-    cout << "\nnukuran baju ayah : " << ub;
-    cout << "\n==========================================" << endl;
+    cout << "==============================";
+    cout << "\nmasukkan jari-jari lingkaran : " << endl;
+     cin >> a;
+    cout << "\nmasukkan jari-jari lingkaran : " << endl;
+    cin >> b;
+    c=pi*a*b;
+    cout << "hasil luas lingkaran adalah : " <<c;
+
+    cout << "\n==============================";
+
+    float q;
+    float r;
+    float t;
+
+    cout << "\nmasukkan panjang persegi panjang : " << endl;
+     cin >> q;
+    cout << "\nmasukkan lebar persegi panjang : " << endl;
+     cin >> t;
+
+    r=q*t;
+    cout << "luas persegi panjang adalah : " <<r;
+    cout << "\n==============================";
+    cout << "\nSELESAI..";
     return 0;
 }
